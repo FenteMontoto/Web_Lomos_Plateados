@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	font-size:2.5em;
+	font-weight:bold;
+	display:flex;
+	min-height:100vh;
+	min-width:100vh;
+	background-image:url(JULIO 460.jpg);
+	background-size:100%;
+	
+}
+
+.contenedor{
+	
+	display:flex;
+	
+}
+.main{
+	
+background-color:#0b6bfbb3;
+color:#ABB2B9;
+width:50%;
+display:flex;
+justify-content:center;
+min-height:100vh;
+min-width:100vh;
+}
+
+.aside{
+	
+background-color:#ABB2B9b3;
+color:#0b6bfb;
+width:50%;
+display:flex;
+min-height:100vh;
+min-width:100vh;
+justify-content:center;
+}
+.main,.aside,img{
+	align-items:center;
+}
+img{
+	position:absolute;
+	top:40vh;
+	left:90vh;
+	opacity: 0.7;
+  filter:  alpha(opacity=70);
+	
+}
